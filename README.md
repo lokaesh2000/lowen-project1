@@ -6,6 +6,11 @@ By analyzing two standard photographs (a macro shot of the trailer and a micro c
 
 ---
 
+## 🔗 Quick Links
+* **Live Test Deployment:** https://lowen-frontend-final.vercel.app/
+* **Dataset Used:** https://app.roboflow.com/traail/truck-trail/6, https://app.roboflow.com/traail/tlogo-detection/1
+---
+
 ## 🧠 The Architecture & Pipeline
 
 This system completely replaces manual tape-measure estimates with a 5-step AI pipeline:
@@ -54,11 +59,12 @@ logo_best.pt
 
 ## ⚙️ How to Run
 The script runs completely headlessly in your terminal and requires exactly two input images: a wide shot of the trailer, and a close-up of the tape.
-
+for robust resting with edge cases us this love demo https://lowen-frontend-final.vercel.app/
 Command:
 ```bash
-python3 fleet_inspector.py [path_to_macro_trailer.jpg] [path_to_micro_tape.jpg]
+python3 main.py macro.png micro.png
 ```
+
 ## 📊 Outputs
 When the pipeline finishes, it will generate two distinct outputs:
 
