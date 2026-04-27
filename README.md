@@ -75,7 +75,9 @@ A formatted text report printed directly to your console detailing the fleet own
 The script will silently generate and save 6 high-resolution JPEG images into your project folder.
 
 Here is a step-by-step breakdown of the AI pipeline in action on a sample trailer:
-
+**0. Inputs
+![Full Image of the Trailer](macro.png)
+![Closeup Image of the Trailer](micro.png)
 **1. AI Perspective Flattening**
 ![Flattened Trailer Canvas](proof_1_flattened_trailer.jpg)
 
