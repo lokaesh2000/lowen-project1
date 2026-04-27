@@ -73,3 +73,23 @@ A formatted text report printed directly to your console detailing the fleet own
 
 ### 2. Visual Proofs
 The script will silently generate and save 6 high-resolution JPEG images into your project folder.
+
+Here is a step-by-step breakdown of the AI pipeline in action on a sample trailer:
+
+**1. AI Perspective Flattening**
+![Flattened Trailer Canvas](proof_1_flattened_trailer.jpg)
+
+**2. Dynamic Scale Calibration**
+![Tape Micro Classification](proof_2_micro_classification.jpg)
+
+**3. Statistical Noise Filtering**
+![Tape Strip Count](proof_3_tape_strip_count.jpg)
+
+**4. Physical Dimension Calculation**
+![Calculated Dimensions](proof_4_dimensions.jpg)
+
+**5. Semantic Fleet Detection**
+![Fleet Brand Detected](proof_5_semantic_brand.jpg)
+
+**6. True Ink Area Extraction**
+![Ink Extraction Mask](proof_6_ink_extraction.jpg)
